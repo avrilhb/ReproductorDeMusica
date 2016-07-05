@@ -31,6 +31,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         canciones.append(["Ça plane pour moi - Plastic Bertrand"])
         canciones.append(["Light it up - Major Lazer"])
         self.titulo.text = ""
+        reproduceCancion(0)
         
     }
     
